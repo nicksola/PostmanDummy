@@ -1,0 +1,636 @@
+{
+	"info": {
+		"_postman_id": "c3457423-9cad-4d13-8414-9ac197184c67",
+		"name": "DummyAPI2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Comment/message null",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message one sign",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"G\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message two sign",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"Пр\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message 499 sign",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"IhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbn\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message 500 sign",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"IhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbрNFBIJBnLMDBppjdpbn\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message 501 sign",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"IhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppjdpbnDFmbpIhnbodkfnbdnfboiHnbNFBIJBnLMDBppj1dpbn\",\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message int",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": 123,\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message doouble",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": 177.23,\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message boolean",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": true,\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/message boolean 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": false,\r\n    \"owner\": \"60d0fe4f5311236168a109ca\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/owner  id",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"\",\r\n    \"owner\": \"60d0fe4f5311236168a109cc\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/owner id 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"\",\r\n    \"owner\": \"\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/ owner id 3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"\",\r\n    \"owner\": \"60d0fe4f5311236168a109gg\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/post null",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"\",\r\n    \"owner\": \"60d0fe4f5311236168a109cc\",\r\n    \"post\": \"\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/ post 2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"\",\r\n    \"owner\": \"60d0fe4f5311236168a109cc\",\r\n    \"post\": \"60d21b4667d0d8992e610c85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Comment/ post 3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "app-id",
+						"value": "61fbc30fb948d37453cfa29c",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"message\": \"\",\r\n    \"owner\": \"60d0fe4f5311236168a109cc\",\r\n    \"post\": \"6025b4667d0d8992e809b85\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://dummyapi.io/data/v1/comment/create",
+					"protocol": "https",
+					"host": [
+						"dummyapi",
+						"io"
+					],
+					"path": [
+						"data",
+						"v1",
+						"comment",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "60d0fe4f5311236168a109ca",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "add-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
